@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>ToDo List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <h2> To Do List</h2>
+
+    <!--span is easily manipulated with js and css so its good for functions-->
+    <h4>Current Date and Time is: <span id="time"></span></h4>
+
+    <input id='inputVal' type="text" placeholder="Add ToDo List Item">
+
+    <button onclick="addButton()">Add</button>
+
+</header>
+<body>
+
+<ul id="list">
+    <!--tutorial list item to teach how to close items-->
+    <li>type your todo list in the bar above!</li>
+    <li class="checked">click on a list item to check it off your list</li>
+    <li>click the 'X' button to delete items.</li>
+</ul>
+
+
+
+<!-- references the js document-->
+<script src="functions.js"></script>
+
+</body>
+<footer id="footer">
+    <p>2021 sam riches</p>
+</footer>
+</html>
